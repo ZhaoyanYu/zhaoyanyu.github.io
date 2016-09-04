@@ -74,6 +74,67 @@ $(document).ready(function() {
 	  <td height="30" width="25%" align="center" class="lan" style="text-align:left; font-family:黑体; font-size:15px;">留学生活问答</td>
    </tr>
 </table>
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtSchool1";
+RequiredFieldValidator1.errormessage = "请填写学校名称";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "Name_1";
+RequiredFieldValidator2.errormessage = "请填写英文姓名";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+RequiredFieldValidator3.controltovalidate = "Name_2";
+RequiredFieldValidator3.errormessage = "请填写中文姓名拼音";
+RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator3.initialvalue = "";
+var RequiredFieldValidator4 = document.all ? document.all["RequiredFieldValidator4"] : document.getElementById("RequiredFieldValidator4");
+RequiredFieldValidator4.controltovalidate = "ShR_1";
+RequiredFieldValidator4.errormessage = "请填写出生年份";
+RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator4.initialvalue = "";
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "YouBian";
+RequiredFieldValidator5.errormessage = "请填写邮编";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+var RegularExpressionValidator3 = document.all ? document.all["RegularExpressionValidator3"] : document.getElementById("RegularExpressionValidator3");
+RegularExpressionValidator3.controltovalidate = "YouBian";
+RegularExpressionValidator3.errormessage = "邮编必须为数字";
+RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator3.validationexpression = "\\d{1,6}";
+var RequiredFieldValidator6 = document.all ? document.all["RequiredFieldValidator6"] : document.getElementById("RequiredFieldValidator6");
+RequiredFieldValidator6.controltovalidate = "Addr_1";
+RequiredFieldValidator6.errormessage = "请完整填写地址";
+RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator6.initialvalue = "";
+var RegularExpressionValidator1 = document.all ? document.all["RegularExpressionValidator1"] : document.getElementById("RegularExpressionValidator1");
+RegularExpressionValidator1.controltovalidate = "phone_1";
+RegularExpressionValidator1.errormessage = "请填写正确的电话号码格式";
+RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator1.validationexpression = "\\d{1,4}-?\\d{6,10}";
+var RegularExpressionValidator2 = document.all ? document.all["RegularExpressionValidator2"] : document.getElementById("RegularExpressionValidator2");
+RegularExpressionValidator2.controltovalidate = "Email";
+RegularExpressionValidator2.errormessage = "请填写正确的邮件地址";
+RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator2.validationexpression = "\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
+var RequiredFieldValidator7 = document.all ? document.all["RequiredFieldValidator7"] : document.getElementById("RequiredFieldValidator7");
+RequiredFieldValidator7.controltovalidate = "Email";
+RequiredFieldValidator7.errormessage = "请填写您的邮箱地址";
+RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator7.initialvalue = "";
+var RequiredFieldValidator8 = document.all ? document.all["RequiredFieldValidator8"] : document.getElementById("RequiredFieldValidator8");
+RequiredFieldValidator8.controltovalidate = "txtXueLi";
+RequiredFieldValidator8.errormessage = "请填写学历";
+RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator8.initialvalue = "";
+//]]>
+</script>
+
+
 <table width="998" border="0" align="center" cellpadding="0" cellspacing="0">
 	
   <tr>
